@@ -1,0 +1,759 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>列表页</title>
+	<link rel="stylesheet" href="../css/iconfont.css">
+	<link rel="stylesheet" href="../css/list.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<script src="../js/jquery-1.8.3.min.js"></script>
+</head>
+<body>
+	<div id="list">
+		<!-- 导航条 -->
+		<div id="index_head">
+			<div class="index_head_box">
+				<div class="index_head_box1">
+					<span class="index_head_span1">喵，欢迎来到天猫</span>
+					<a href="denglu.html">请登录</a>
+					<a href="zhuce.html">免费注册</a>
+				</div>
+				<ul class="index_list">
+					<li class="li_1">
+						<p href="#" class="deco index_list_l1_p1">我的淘宝 ▽</p> 	
+						<!--  -->
+						<div class="index_list_li1_mytb">
+							<p>已买到的宝贝</p>
+							<p>已卖出的宝贝</p>
+						</div>
+					</li>
+					<li class="index_list_l1_p2">
+						<i class="iconfont icon-gouwuche" class="i_tb"></i>
+						<p href="#" style="float:right">购物车0件</p>	
+					</li>
+					<li class="li_3">
+						<p href="#" class="deco index_list_l1_p3">收藏夹 ▽</p> 
+							<!--  -->
+						<div class="index_list_li1_mytb">
+							<p>收藏的宝贝</p>
+							<p>收藏的店铺</p>
+						</div>
+					</li>
+					<li style="margin-left:10px;margin-right:10px;color:#adadad;">|</li>
+					<li class="index_list_l1_p4 li_4">
+						<i class="iconfont icon-shouji" class="i_tb"></i>
+						<p href="#" style="float:right;">手机版</p>	
+						<div class="shouji_ewm">
+							<img src="../images/shouji_ewm.png" alt="">
+						</div>
+					</li>
+					<li>
+						<p href="#" class="index_list_l1_p5">淘宝网</p>	
+					</li>
+					<li class="li_7">
+						<p href="#" class="deco index_list_l1_p6">商家支持 ▽</p>
+						<div class="shang">
+	 	 	   	       	    <h5>商家:</h5>
+	 	 	   	       	    <ul class="index_head_list1">
+	 	 	   	       	    	 <li>商家中心</li>
+	 	 	   	       	    	 <li>天猫规则</li>
+	 	 	   	       	    	 <li>商家入驻</li>
+	 	 	   	       	    	 <li>运营服务</li>
+	 	 	   	       	    	 <li>商家品控</li>
+	 	 	   	       	    	 <li>商家工具</li>
+	 	 	   	       	    	 <li>天猫智库</li>
+	 	 	   	       	    	 <li>喵言喵语</li>
+	 	 	   	       	    </ul>
+	 	 	   	       	    <div class="dotted"></div>
+	 	 	   	       	     <h5 class="help">帮助:</h5>
+	 	 	   	       	    <ul class="index_head_list2">
+	 	 	   	       	    	 <li>商家中心</li>
+	 	 	   	       	    	 <li>天猫规则</li>
+	 	 	   	       	    </ul>
+	 	 	   	       	    <div class="dotted"></div>
+	 	 	   	       </div>
+					</li>
+					<li class="li_8">
+												
+						<i class="iconfont icon-weibiaoti15" class="i_tb i_tb3" style="margin-right:8px;"></i>
+
+						<p class=" index_list_l1_p7" style="float:right;">网站导航 ▽</p>
+						<div class="wzdh">
+	 	 	   	       	    <div class="w1">
+	 	 	   	       	    	 <b class="re">热点推荐 Hot</b>
+	 	 	   	       	    	 <ul class="list3">
+	 	 	   	       	    	 	<li>天猫超市</li>
+	 	 	   	       	    	 	<li>喵先生</li>
+	 	 	   	       	    	 	<li>
+	 	 	   	       	    	 		科技新品<img src="../images/6.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>女装新品<img src="../images/5.jpg" alt="" class="tp"></li>
+	 	 	   	       	    	 	<li>酷玩街</li>
+	 	 	   	       	    	 	<li>
+	 	 	   	       	    	 		内衣新品<img src="../images/5.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>试美妆</li>
+	 	 	   	       	    	 	<li>运动新品</li>
+	 	 	   	       	    	 	<li>时尚先生<img src="../images/5.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>精美妈咪</li>
+	 	 	   	       	    	 	<li>
+	 	 	   	       	    	 	   吃乐会<img src="../images/6.jpg" alt="" class="tp">
+	 	 	   	       	    	    </li>
+	 	 	   	       	    	 	<li>企业采购</li>
+	 	 	   	       	    	 	<li>会员积分</li>
+	 	 	   	       	    	 	<li>天猫国际</li>
+	 	 	   	       	    	 	<li>品质频道</li>
+	 	 	   	       	    	 </ul>
+	 	 	   	       	    </div>
+
+	 	 	   	       	    <div class="w1">
+	 	 	   	       	    	 <b class="rel">行业市场 Market</b>
+	 	 	   	       	    	 <ul class="list3">
+	 	 	   	       	    	 	<li>美妆</li>
+	 	 	   	       	    	 	<li>电器</li>
+	 	 	   	       	    	 	<li>
+	 	 	   	       	    	 		女装<img src="../images/5.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>男装<img src="../images/5.jpg" alt="" class="tp"></li>
+	 	 	   	       	    	 	<li>女鞋</li>
+	 	 	   	       	    	 	<li>男鞋</li>
+	 	 	   	       	    	 	<li>内衣<img src="../images/5.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>箱包</li>
+	 	 	   	       	    	 	<li>运动</li>
+	 	 	   	       	    	 	<li>母婴</li>
+	 	 	   	       	    	 	<li>家装</li>
+	 	 	   	       	    	 	<li>医药</li>
+	 	 	   	       	    	 	<li>食品</li>
+	 	 	   	       	    	 	<li>配饰<img src="../images/6.jpg" alt="" class="tp">
+	 	 	   	       	    	 	</li>
+	 	 	   	       	    	 	<li>汽车</li>
+	 	 	   	       	    	 </ul>
+	 	 	   	       	    </div>
+	 	 	   	       	    
+	 	 	   	       	    <div class="w2">
+	 	 	   	       	    	 <b class="ret">服务指南 Help</b>
+	 	 	   	       	    	 <ul class="list4">
+	 	 	   	       	    	 	<li>帮助中心</li>
+	 	 	   	       	    	 	<li>品质保障</li>	
+	 	 	   	       	    	 	<li>特色服务</li>
+	 	 	   	       	    	 	<li>7天退换货</li>
+	 	 	   	       	    	 </ul>
+	 	 	   	       	    </div>
+	 	 	   	       </div>
+						
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- logo -->
+		<div id="logo">
+			<div class="logo_box">
+				<div class="logo_tpbox">
+					<img src="../images/dl_logo.png" alt="">
+				</div>
+				<div class="ss">
+					<div class="ss_mid">
+						<input type="text" class="ss_btn1" placeholder=" 装修">
+						<input type="button" value="搜 索" class="ss_btn2">
+					</div>
+					<ul class="ss_menu">
+						<li class="border_r ss_menu1">装修设计</li>
+						<li class="border_r">全包装修</li>
+						<li class="border_r">爱空间</li>
+						<li class="border_r">家装设计</li>
+						<li class="border_r">家装e站</li>
+						<li class="border_r">装修公司</li>
+						<li class="ss_menu7">装修现代简约</li>
+					</ul>
+				</div>
+				<img src="../images/list_logo_tp.png" alt="" class="list_logo_tp">
+			</div>
+		</div>
+		<!-- 全部 -->
+		<div id="list_all">
+			<ul class="list_all_list1">
+				<li><a href="#">全部</a> ></li>
+				<li>
+					<input type="text" placeholder=" 装修">
+					<a href="#">
+						<img src="../images/list_all_ss.png" alt="">
+					</a>
+				</li>
+			</ul>
+			<p class="list_all_p">
+				共 <span> 147336 </span>件相关商品
+			</p>
+		</div>
+		<!-- head-->
+		<div id="list_head">
+			<div class="list_head_box1">
+				<div class="list_head_box1_left">品牌</div>
+				<ul class="list_head_box1_mid">
+					<li>
+						<a href="#">空间智慧</a>
+					</li>
+					<li>
+						<a href="#">百安居</a>
+					</li>
+					<li>
+						<a href="#">SHJ Decoration/生活家装饰</a>
+					</li>
+					<li>
+						<a href="#">家装e站</a>
+					</li>
+					<li>
+						<a href="#">塞纳春天（装饰）</a>
+					</li>
+					<li>
+						<a href="##">金螳螂</a>
+					</li>
+					<li>
+						<a href="##">东易日盛</a>
+					</li>
+					<li>
+						<a href="##">PINGO</a>
+					</li>
+					<li>
+						<a href="#">家居就工长俱乐部</a>
+					</li>
+					<li>
+						<a href="#">靓家居</a>
+					</li>
+					<li>
+						<a href="#">有住</a>
+					</li>
+					<li>
+						<a href="#">安乐窝</a>
+					</li>
+					<li>
+						<a href="#">德雕</a>
+					</li>
+					<li>
+						<a href="#">MENG JU DECORATEON/梦居装饰</a>
+					</li>
+				</ul>
+				<div class="list_head_box1_right">
+					<a href="#"> + 多选</a>
+					<a href="#">更多 v</a>
+				</div>
+			</div>
+			<!--  -->
+			<div class="list_head_box2">
+				<div class="list_head_box2_top">
+					<div class="list_head_box2_left">> <a href="#">装修服务</a></div>
+					<a href="#" class="list_head_box2_right">整体家装</a>
+				</div>
+				<div class="list_head_box2_btm">
+					<div class="list_head_box2_btm_left">> 其他分类</div>
+					<a href="#" class="list_head_box2_right">装修设计/施工/监理</a>
+					<div class="list_head_box1_right">
+						<a href="#" style="background:#fff;"></a>
+						<a href="#" style="margin-top:8px;">更多 v</a>
+					</div>
+				</div>
+			</div>
+			<!--  -->
+			<div class="list_head_box3">
+				<div class="list_head_box3_top">
+					<div class="list_head_box3_left">上门服务城市</div>
+					<ul class="list_head_box3_list">
+						<li>
+							<a href="#">全国</a>
+						</li>
+						<li>
+							<a href="#">北京市</a>
+						</li>
+						<li>
+							<a href="#">上海市</a>
+						</li>
+						<li>
+							<a href="#">武汉市</a>
+						</li>
+						<li>
+							<a href="#">广州市</a>
+						</li>
+						<li>
+							<a href="##">青岛市</a>
+						</li>
+						<li>
+							<a href="##">天津市</a>
+						</li>
+						<li>
+							<a href="##">其他</a>
+						</li>
+					</ul>
+				</div>
+				<div class="list_head_box3_mid">
+					<div class="list_head_box3_left">房屋类型</div>
+					<ul class="list_head_box3_list">
+						<li>
+							<a href="#">三居室</a>
+						</li>
+						<li>
+							<a href="#">二居室</a>
+						</li>
+						<li>
+							<a href="#">四居室</a>
+						</li>
+						<li>
+							<a href="#">别墅</a>
+						</li>
+						<li>
+							<a href="#">复式</a>
+						</li>
+						<li>
+							<a href="##">一居室</a>
+						</li>
+						<li>
+							<a href="##">公寓</a>
+						</li>
+						<li>
+							<a href="##">联排</a>
+						</li>
+					</ul>
+				</div>
+				<div class="list_head_box3_btm">
+					<div class="list_head_box3_btm_left">建筑面积</div>
+					<ul class="list_head_box3_list">
+						<li>
+							<a href="#">300㎡(含)以上</a>
+						</li>
+						<li>
+							<a href="#">200㎡(含)-300㎡(不含)</a>
+						</li>
+						<li>
+							<a href="#">120㎡(含)-200㎡(不含)</a>
+						</li>
+						<li>
+							<a href="#">90㎡(含)-120㎡(不含)</a>
+						</li>
+						<li>
+							<a href="#">60㎡(含)-90㎡(不含)</a>
+						</li>
+						<li>
+							<a href="##">60㎡(不含)以下</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="more_line"></div>
+			<div class="more">
+				<a href="#">更多选项 v</a>
+			</div>
+		</div>
+		<!--  -->
+
+		<div id="list_mid">
+			<ul>
+				<li>
+					<div>
+						<a href="../html/details.html">
+							<img src="../images/list_mid_tp1.jpg" alt="">
+						</a>
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+			<ul></ul>
+			<ul></ul>
+			<ul></ul>
+			<ul></ul>
+		</div>
+		<!--  -->
+		<div id="end_tp">
+			<img src="../images/btm.png" alt="">
+		</div>
+
+		<!-- end -->
+		<div id="end">
+			<p class="end_p1"><<上一页</p>
+			<p class="end_p2" style="background:#efefef;">1</p>
+			<p class="end_p2">2</p>
+			<p class="end_p2" style="border-right:1px solid #ccc;">3</p>
+			<p class="end_p3">&nbsp· · ·&nbsp</p>
+			<p class="end_p4">>>下一页</p>
+			<p class="end_p5">&nbsp 共100页，到第 
+				<div class="end_num">1</div>
+				<p class="end_p5">页</p>
+			</p>
+			<button class="end_btn">确定</button>
+		</div>
+		<!-- end2 -->
+		<div id="end2">
+			<p class="end2_p1">您是不是想找</p>
+			<ul class="end2_list1">
+				<li>装修设计</li>
+				<li>爱空间</li>
+				<li>家装设计</li>
+				<li>家装e站</li>
+				<li>装修公司</li>
+				<li>装修现代简约</li>
+				<li>全包装修</li>
+				<li>室内装修</li>
+			</ul>
+		</div>
+		<!-- end3 -->
+		<div id="end3">
+			<b class="end3_b1">掌柜热卖</b>
+			<p class="end3_p1">广告</p>
+			<a href="#" class="end3_a">更多热卖></a>
+		</div>
+		<!-- end4 -->
+		<div id="end4">
+			<ul>
+				<li>
+					<div>
+						<img src="../images/list_mid_tp1.jpg" alt="">
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="../images/list_mid_tp2.jpg" alt="">
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="../images/list_mid_tp3.jpg" alt="">
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="../images/list_mid_tp4.jpg" alt="">
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img src="../images/list_mid_tp5.jpg" alt="">
+						<p class="list_mid_p1">￥100.00</p>
+						<p class="list_mid_p2">橙家全屋<span>装修</span>设计效果图家装施工服务</p>
+						<p class="list_mid_p3">橙家装饰旗舰店</p>
+						<ul class="list_mid_p4">
+							<li>月成交 <span>0笔</span></li>
+							<li>评价 <span>0</span></li>
+							<li>
+								<img src="../images/list_mid_tb.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</li>
+
+			</ul>
+			<div class="end4_box1">
+				<!-- <div class="end4_box1_btn"> -->
+					<!-- <input type="text" class="end4_box_btn1"> -->
+					<!-- <input type="button" value="搜索" class="end4_box_btn2"> -->
+				<!-- </div> -->
+				<div class="ss_mid" style="margin-left:330px;">
+						<input type="text" class="ss_btn1" placeholder=" 装修">
+						<input type="button" value="搜 索" class="ss_btn2">
+					</div>
+			</div>
+		</div>
+		<!-- bottom -->
+		<div id="btm1">
+			<div class="btm1_box">
+				<ul class="btm1_box1">
+					<li>
+						<div style="float:left">
+							<img src="../images/btm1_li1.png" alt="">
+						</div>
+						<b>品质保障</b>
+						<br>
+						<p>品质护航，购物无忧</p>
+					</li>
+					<li>
+						<div style="float:left">
+							<img src="../images/btm1_li2.png" alt="">
+						</div>
+						<b>七天无理由退换货</b>
+						<br>
+						<p>为您提供售后无忧保障</p>
+					</li>
+					<li>
+						<div style="float:left">
+							<img src="../images/btm1_li3.png" alt="">
+						</div>
+						<b>特色服务体验</b>
+						<br>
+						<p>为您呈现不一样的服务</p>
+					</li>
+					<li>
+						<div style="float:left">
+							<img src="../images/btm1_li4.png" alt="">
+						</div>
+						<b style="margin-right:28px;">帮助中心</b>
+						<br>
+						<p>您的购物指南</p>
+					</li>
+				</ul>
+				<div class="btm1_box2">
+					<ul>
+						<li><b>购物指南</b></li>
+						<li><a href="#">免费注册</a></li>
+						<li><a href="#">开通支付宝</a></li>
+						<li><a href="#">支付宝充值</a></li>
+					</ul>
+					<ul>
+						<li><b>天猫保障</b></li>
+						<li><a href="#">发票保障</a></li>
+						<li><a href="#">售后规则</a></li>
+						<li><a href="#">缺货赔付</a></li>
+					</ul>
+					<ul>
+						<li><b>支付方式</b></li>
+						<li><a href="#">快捷支付</a></li>
+						<li><a href="#">信用卡</a></li>
+						<li><a href="#">余额宝</a></li>
+						<li><a href="#">蚂蚁花呗</a></li>
+						<li><a href="#">货到付款</a></li>
+					</ul>
+					<ul>
+						<li><b>商家服务</b></li>
+						<li><a href="#">天猫规则</a></li>
+						<li><a href="#">商家入驻</a></li>
+						<li><a href="#">商家中心</a></li>
+						<li><a href="#">天猫智库</a></li>
+						<li><a href="#">物流服务</a></li>
+						<li><a href="#">喵言喵语</a></li>
+						<li><a href="#">运营服务</a></li>
+					</ul>
+					<ul>
+						<li><b>手机天猫</b></li>
+						<li style="margin-top:6px;">
+							<img src="../images/btm1_ewm.png" alt="">
+						</li>
+					</ul>
+					<img src="../images/btm.png" alt="" class="btm_tm">
+				</div>
+			</div>
+		</div>
+		<!-- btm2 -->
+		<div id="btm2">
+			<div class="btm2_box">
+				<ul class="btm2_list1">
+					<li><a href="#">关于天猫</a></li>
+					<li><a href="#">帮助中心</a></li>
+					<li><a href="#">开放平台</a></li>
+					<li><a href="#">诚聘精英</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">网站合作</a></li>
+					<li><a href="#">法律声明</a></li>
+					<li><a href="#">隐私权政策</a></li>
+					<li><a href="#">知识产权</a></li>
+					<li><a href="#">廉正举报</a></li>
+					<li><a href="#">规则意见征集</a></li>
+				</ul>
+				<ul class="btm2_list2">
+					<li><a href="#">阿里巴巴集团</a></li>
+					<li>|</li>
+					<li><a href="#">淘宝网</a></li>
+					<li>|</li>
+					<li><a href="#">天猫</a></li>
+					<li>|</li>
+					<li><a href="#">聚划算</a></li>
+					<li>|</li>
+					<li><a href="#">全球速卖通</a></li>
+					<li>|</li>
+					<li><a href="#">阿里巴巴国际交易市场</a></li>
+					<li>|</li>
+					<li><a href="#">1688</a></li>
+					<li>|</li>
+					<li><a href="#">阿里妈妈</a></li>
+					<li>|</li>
+					<li><a href="#">飞猪</a></li>
+					<li>|</li>
+					<li><a href="#">阿里云计算</a></li>
+					<li>|</li>
+					<li><a href="#">AliOS</a></li>
+					<li>|</li>
+					<li><a href="#">阿里通信</a></li>
+					<li>|</li>
+					<li><a href="#">万网</a></li>
+					<li>|</li>
+					<li><a href="#">高德</a></li>
+					<li>|</li>
+					<li><a href="#">UC</a></li>
+					<li>|</li>
+					<li><a href="#">友盟</a></li>
+					<li>|</li>
+					<li><a href="#">虾米</a></li>
+					<li>|</li>
+					<li><a href="#">钉钉</a></li>
+					<li>|</li>
+					<li><a href="">支付宝</a></li>
+				</ul>
+				<ul class="btm2_list3">
+					<li>
+						增值电信业务营业许可证：
+						<a href="#">浙B220110446</a>
+					</li>
+					<li>
+						网络文化经营许可证：
+						<a href="#">浙网文[2015]0295-065号</a>
+					</li>
+					<li>
+						<a href="#">12318举报</a>
+					</li>
+					<li>
+						出版物网络交易平台服务经营备案证： 
+						<a href="#">新出发浙备字第001号</a>
+					</li>
+				</ul>
+				<ul class="btm2_list3">
+					<li>
+						互联网违法和不良信息举报电话：
+						<a href="#">0571-81683755 blxxjb@alibaba-inc.com：</a>
+					</li>
+					<li>
+						互联网药品信息服务资质证书编号：
+						<a href="#">浙-（经营性）-2017-0005</a>
+					</li>
+					<li>
+						<img src="../images/btm2.png" alt="">
+					</li>
+					<li style="margin-left:-65px;">
+						<a href="#"> 浙公网安备 33010002000120号</a>
+					</li>
+					<li style="margin-top:5px;">
+						（浙）网械平台备字[2018]第00002号
+					</li>
+				</ul>
+				<!--  -->
+				<ul class="btm2_list3" style="margin-bottom:10px;">
+					<li style="color:#666;margin-top:-5px;">
+						© 2003-2018 TMALL.COM 版权所有
+					</li>
+				</ul>
+				<ul class="btm2_list4">
+					<li>
+						<img src="../images/btm2_1.jpg" alt="">
+					</li>
+					<li>
+						<img src="../images/btm2_2.jpg" alt="">
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+
+		<!-- ``````右侧选项栏弹出```````````````````` -->
+		<div id="select">
+			<div class="select_content">
+				<div class="yi hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>会员权益</span>
+					</div>
+				</div>
+				<div class="er hong hover">
+					<div class="bg_pic"></div>
+					<span>购物车</span>
+					<div class="xian"></div>
+				</div>
+				<div class="san hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>我的资产</span>
+					</div>
+				</div>
+				<div class="si hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>我的收藏</span>
+					</div>
+				</div>
+				<div class="wu hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>我看过的</span>
+					</div>
+				</div>
+				<div class="liu hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>我要充值</span>
+					</div>
+				</div>
+				<div class="qi hong hover">
+					<div class="bg_pic"></div>
+					<div class="show xian">
+						<span>用户反馈</span>
+					</div>
+				</div>
+				<div class="ba hong hover">
+					<div class="bg_pic"></div>
+					<div class="show ewm xian">
+						<div class="ewm_bg">
+							<img src="../images/ba1.jpg" alt="">
+							<li>首次下载天猫App</li>
+							<li>领<b>388元</b>大礼包</li>
+						</div>
+					</div>
+				</div>
+				<div class="jiu hong">
+					<a href="#">
+						<div class="bg_pic"></div>
+						<div class="show"></div>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+<script src="../js/list.js"></script>
+</body>
+</html>
